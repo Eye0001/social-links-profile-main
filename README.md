@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/design/social-links-profile.jpg)
+![](./design/social-links-profile.png)
 
 ### Links
 
