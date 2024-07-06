@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Inter";
+    src: url(social-links-profile-main\assets\fonts\Inter-VariableFont_slnt,wght.ttf);
+}
+
+:root {
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700
+}
+
+
+/* RESET START*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+/* RESET END */
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+section {
+    background-color: hsl(0, 0%, 12%);
+    width: 90vw;
+    max-width: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pfp {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pfp img{
+    border-radius: 100px;
+    width: 90px;
+    margin: 40px 0 25px 0;
+}
+
+.text h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: var(--semi-bold);
+}
+
+.text p:first-of-type {
+    color: hsl(75, 94%, 57%);
+    font-weight: var(--bold);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.text p:last-of-type {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 80%;
+    margin: 20px 0 40px 0;
+}
+
+button {
+    width: 40vh;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    border: 0;
+    min-height: 45px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: var(--semi-bold)
+}
+
+button:hover {
+  background-color:hsl(75, 94%, 57%);
+  cursor: pointer;
+  color:hsl(0, 0%, 8%)
+}
+
+@media screen and (max-width: 344px) {
+  button {
+    width: 270px;
+  }
+}
+
+
+
