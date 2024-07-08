@@ -90,13 +90,12 @@ section {
 .links {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 16px;
     width: 80%;
     margin: 20px 0 40px 0;
 }
 
-button {
+a {
     width: 40vh;
     max-width: 300px;
     background-color: hsl(0, 0%, 20%);
@@ -104,10 +103,14 @@ button {
     min-height: 45px;
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
-    font-weight: var(--semi-bold)
+    font-weight: var(--semi-bold);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-button:hover {
+a:hover {
   background-color:hsl(75, 94%, 57%);
   cursor: pointer;
   color:hsl(0, 0%, 8%)
